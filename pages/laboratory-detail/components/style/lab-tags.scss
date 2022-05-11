@@ -1,0 +1,63 @@
+  .tags {
+    color: darkgrey;
+    height: auto;
+    width: 93%;
+    margin: 15rpx auto;
+    padding: 20rpx 30rpx;
+    .date_loc {
+      font-size: 25rpx;
+      height: 33.3%;
+      display: flex;
+      .date {
+        width: auto;
+        border: 0.5rpx solid darkgray;
+        padding: 5rpx 5rpx;
+        border-radius: 3px;
+      }
+      .loc {
+        width: auto;
+        margin-left: 25rpx;
+        border: 0.5rpx solid darkgray;
+        padding: 5rpx 5rpx;
+        border-radius: 3px;
+      }
+    }
+    .principal_tel {
+      font-size: 25rpx;
+      height: 33.3%;
+      display: flex;
+      margin-top: 25rpx;
+      .tel {
+        width: auto;
+        margin-left: 25rpx;
+        border: 0.5rpx solid darkgray;
+        border-radius: 3px;
+        padding: 5rpx 5rpx;
+      }
+      .principal {
+        width: auto;
+        border: 0.5rpx solid darkgray;
+        border-radius: 3px;
+        padding: 5rpx 5rpx;
+      }
+    }
+    .email_area {
+      font-size: 25rpx;
+      height: 33.3%;
+      display: flex;
+      margin-top: 25rpx;
+      .email {
+        width: auto;
+        border: 0.5rpx solid darkgray;
+        padding: 5rpx 5rpx;
+        border-radius: 3px;
+      }
+      .area {
+        width: auto;
+        margin-left: 25rpx;
+        border: 0.5rpx solid darkgray;
+        padding: 5rpx 5rpx;
+        border-radius: 3px;
+      }
+    }
+  }

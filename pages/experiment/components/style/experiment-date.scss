@@ -1,0 +1,15 @@
+.container {
+  width: 93%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20rpx auto;
+  padding: 10rpx 10rpx;
+  color: #606266;
+  .experience_content {
+    margin-top: 50rpx;
+    color: #606266;
+  }
+  .calendar {
+    --calendar-height: 600rpx;
+  }
+}

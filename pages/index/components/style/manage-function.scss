@@ -1,0 +1,21 @@
+.function {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  letter-spacing: 1rpx;
+  border-radius: 10px;
+  color: #606266;
+  van-icon {
+    color: #1f8dd6ad;
+  }
+  .fun_title {
+    padding: 15rpx;
+    color: #1f8dd6ad;
+    font-size: 35rpx;
+  }
+  .func {
+    .fun-title {
+      font-size: 30rpx;
+    }
+  }
+}

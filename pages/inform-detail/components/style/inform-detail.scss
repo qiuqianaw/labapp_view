@@ -1,0 +1,29 @@
+.detail{
+    // background-color: #FFFFFF;
+    // height: auto;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	padding-bottom: 30rpx;
+    .message{
+		padding-left: 40rpx;
+    }
+    .van-icon{
+        color: #1f8dd6d2;
+        margin: 10rpx;
+        padding: 5rpx 5rpx;
+        text-align: right;
+    }
+    .title{
+		padding-top: 15rpx;
+        // margin-top: 15rpx;
+        margin-bottom: 15rpx;
+        text-align: center;
+        font-size: 32rpx;
+        font-weight: bold;
+    }
+    .date{
+        padding: 5rpx 5rpx;
+        margin: 5rpx;
+        color: darkgray;
+    }
+}

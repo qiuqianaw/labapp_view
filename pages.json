@@ -1,0 +1,324 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "实验中心",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/laboratory/index",
+      "style": {
+        "navigationBarTitleText": "实验室",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/reservation-list/index",
+      "style": {
+        "navigationBarTitleText": "预约单",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/experiment/index",
+      "style": {
+        "navigationBarTitleText": "实验项目",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/inform/index",
+      "style": {
+        "navigationBarTitleText": "新闻公告"
+      }
+    },
+    {
+      "path": "pages/laboratory-detail/index",
+      "style": {
+        "navigationBarTitleText": "实验室详情"
+      }
+    },
+    {
+      "path": "pages/contact/index",
+      "style": {
+        "navigationBarTitleText": "联系我们"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/questionnaire-visitor/index",
+      "style": {
+        "navigationBarTitleText": "问卷调查"
+      }
+    },
+    {
+      "path": "pages/questionnaire-content/index",
+      "style": {
+        "navigationBarTitleText": "问卷填写"
+      }
+    },
+    {
+      "path": "pages/equipment-repair/index",
+      "style": {
+        "navigationBarTitleText": "设备报修"
+      }
+    },
+    {
+      "path": "pages/safe-study/index",
+      "style": {
+        "navigationBarTitleText": "安全学习"
+      }
+    },
+    {
+      "path": "pages/safe-exam/index",
+      "style": {
+        "navigationBarTitleText": "考核测试"
+      }
+    },
+    {
+      "path": "pages/qr-code/index",
+      "style": {
+        "navigationBarTitleText": "门禁码"
+      }
+    },
+    {
+      "path": "pages/safe-permission/index",
+      "style": {
+        "navigationBarTitleText": "安全准入"
+      }
+    },
+    {
+      "path": "pages/inform-detail/index",
+      "style": {
+        "navigationBarTitleText": "通知详情"
+      }
+    },
+    {
+      "path": "pages/experiment-online/index",
+      "style": {
+        "navigationBarTitleText": "在线实验"
+      }
+    },
+    {
+      "path": "pages/announce-ments/index",
+      "style": {
+        "navigationBarTitleText": "注意事项"
+      }
+    },
+    {
+      "path": "pages/resource-detail/index",
+      "style": {
+        "navigationBarTitleText": "资源详情"
+      }
+    },
+    {
+      "path": "pages/reservation-modify/index",
+      "style": {
+        "navigationBarTitleText": "预约修改"
+      }
+    },
+    {
+      "path": "pages/message-center/index",
+      "style": {
+        "navigationBarTitleText": "消息中心",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/repair-my/index",
+      "style": {
+        "navigationBarTitleText": "我的报修单"
+      }
+    },
+    {
+      "path": "pages/resource-study/index",
+      "style": {
+        "navigationBarTitleText": "资源学习"
+      }
+    },
+    {
+      "path": "pages/study-record/index",
+      "style": {
+        "navigationBarTitleText": "学习记录"
+      }
+    },
+    {
+      "path": "pages/test/index",
+      "style": {
+        "navigationBarTitleText": "test"
+      }
+    },
+    {
+      "path": "pages/web-view/index",
+      "style": {
+        "navigationBarTitleText": "外链"
+      }
+    },
+    {
+      "path": "pages/experiment-detail/index",
+      "style": {
+        "navigationBarTitleText": "实验详情"
+      }
+    },
+    {
+      "path": "pages/certificate/index",
+      "style": {
+        "navigationBarTitleText": "安全证书"
+      }
+    },
+    {
+      "path": "pages/charing-repair/index",
+      "style": {
+        "navigationBarTitleText": "报修管理"
+      }
+    },
+    {
+      "path": "pages/reservation-list-detail/index",
+      "style": {
+        "navigationBarTitleText": "预约单详情"
+      }
+    },
+    {
+      "path": "pages/cancle-order/index",
+      "style": {
+        "navigationBarTitleText": "取消预约"
+      }
+    },
+    {
+      "path": "pages/remote-control/index",
+      "style": {
+        "navigationBarTitleText": "门禁管理"
+      }
+    },
+    {
+      "path": "pages/laboratory-intro/index",
+      "style": {
+        "navigationBarTitleText": "详情"
+      }
+    },
+    {
+      "path": "pages/note-for-open-booking/index",
+      "style": {
+        "navigationBarTitleText": "预约前必读"
+      }
+    },
+    {
+      "path": "pages/reservation-check/index",
+      "style": {
+        "navigationBarTitleText": "预约审批",
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999794",
+    "selectedColor": "#33312e",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/homepage.png",
+        "selectedIconPath": "static/icon/homepage1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/laboratory/index",
+        "iconPath": "static/icon/lab.png",
+        "selectedIconPath": "static/icon/lab1.png",
+        "text": "实验室"
+      },
+      {
+        "pagePath": "pages/reservation-list/index",
+        "iconPath": "./static/icon/yuyue.png",
+        "selectedIconPath": "static/icon/yuyue1.png",
+        "text": "预约单"
+      },
+      {
+        "pagePath": "pages/experiment/index",
+        "iconPath": "static/icon/exper.png",
+        "selectedIconPath": "static/icon/exper1.png",
+        "text": "实验"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    },
+    "usingComponents": {
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-search": "/wxcomponents/vant/button/index",
+      "van-loading": "/wxcomponents/vant/button/index",
+      "van-icon": "/wxcomponents/vant/button/index",
+      "van-image": "/wxcomponents/vant/button/index",
+      "van-cell": "/wxcomponents/vant/button/index",
+      "van-cell-group": "/wxcomponents/vant/button/index",
+      "van-row": "/wxcomponents/vant/button/index",
+      "van-col": "/wxcomponents/vant/button/index",
+      "van-field": "/wxcomponents/vant/button/index",
+      "van-popup": "/wxcomponents/vant/button/index",
+      "van-toast": "/wxcomponents/vant/button/index",
+      "van-picker": "/wxcomponents/vant/button/index",
+      "van-radio": "/wxcomponents/vant/button/index",
+      "van-radio-group": "/wxcomponents/vant/button/index",
+      "van-checkbox": "/wxcomponents/vant/button/index",
+      "van-checkbox-group": "/wxcomponents/vant/button/index",
+      "van-uploader": "/wxcomponents/vant/button/index",
+      "van-calendar": "/wxcomponents/vant/button/index",
+      "van-grid": "/wxcomponents/vant/button/index",
+      "van-grid-item": "/wxcomponents/vant/button/index",
+      "van-dialog": "/wxcomponents/vant/dialog/index",
+      "transition": "/wxcomponents/vant/transition/index",
+      "van-overlay": "/wxcomponents/vant/overlay/index",
+      "van-skeleton": "/wxcomponents/vant/skeleton/index",
+      "van-collapse": "/wxcomponents/vant/collapse/index",
+      "van-collapse-item": "/wxcomponents/vant/collapse-item/index"
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "easycom": {
+    "autoscan": true, //是否自动扫描组件
+    "custom": {
+      //自定义扫描规则
+      "van-(.*)": "@/wxcomponents/vant/$1/index"
+    }
+  },
+  "condition": {
+    //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [
+      {
+        "name": "", //模式名称
+        "path": "", //启动页面，必选
+        "query": "" //启动参数，在页面的onLoad函数里面得到
+      }
+    ]
+  }
+}

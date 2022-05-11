@@ -1,0 +1,23 @@
+.inform-box {
+  margin: 10px 0;
+  padding: 10px;
+  color: #1f8dd6ad;
+  border-radius: 10px;
+  background-color: #fff;
+  .fun_title {
+    padding: 15rpx;
+    color: #1f8dd6ad;
+    font-size: 35rpx;
+  }
+  .van-notice-bar {
+    background-color: #fff;
+    color: #606266;
+    border-bottom: 0.5rpx solid rgba(228, 228, 228, 0.479);
+    font-size: 28rpx;
+  }
+  .xiangqing {
+    text-align: right;
+    font-size: 28rpx;
+    margin-top: 20rpx;
+  }
+}

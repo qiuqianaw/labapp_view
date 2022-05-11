@@ -1,0 +1,49 @@
+.commNewsModule {
+				padding: 0 10rpx;
+				background-color: #FFFFFF;
+				.card {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+					border-bottom: 1rpx solid #ccc;
+					.card_news {
+						width: 95%;
+						margin: 18rpx auto;
+						display: flex;
+						flex-direction: column;
+		 
+						.card_title {
+							display: flex;
+							flex-direction: row;
+							align-items: flex-end;
+							padding: 0 0 5rpx 0;
+		 
+							.title {
+								margin-left: 20rpx;
+								font-size: 32rpx;
+								font-weight: bold;
+							}
+							
+						}		 
+						.card_content2 {
+							padding: 10rpx 0;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							text-indent: 4em;
+							font-size: 28rpx;
+						}
+						.date{
+							font-size: 25rpx;
+							color: darkgray;
+							margin-left: 480rpx;
+						}
+						.type{
+							font-size: 25rpx;
+							color: darkgray;
+							font-weight: bold;
+						}		 
+					}					
+				}
+			}

@@ -1,0 +1,31 @@
+.UCenter-bg {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  text {
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+  }
+  .imager {
+    width: 200rpx;
+    height: 200rpx;
+  }
+  .blur_bj {
+    position: absolute;
+    height: 45vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    -webkit-filter: blur(5rpx);
+    filter: blur(35rpx) brightness(75%); // 模糊半径和变暗
+    transform: scale(1.2); // 控制边缘是否模糊，小于1的话边缘会模糊
+  }
+}

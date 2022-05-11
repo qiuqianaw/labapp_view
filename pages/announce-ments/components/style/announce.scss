@@ -1,0 +1,32 @@
+.container {
+    .content {
+        height: auto;
+        width: 93%;
+        margin: 15rpx auto;
+        padding: 20rpx 15rpx;
+        .head {
+            text-align: center;
+            font-weight: bold;
+        }
+        .other {
+            letter-spacing: 1rpx;
+            height: auto;
+            margin: 10rpx;
+            font-size: 30rpx;
+            // background-color: antiquewhite;
+            .title {
+                text-align: left;
+                font-weight: bold;
+            }
+        }
+        .signature {
+            text-align: right;
+        }
+
+    }
+    .btn {
+        text-align: center;
+        margin-top: 50rpx;
+    }
+
+}
